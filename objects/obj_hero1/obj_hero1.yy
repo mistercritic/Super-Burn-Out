@@ -1,14 +1,14 @@
 {
-    "id": "2912d81c-64ad-4d75-aa0c-86a43aeeda44",
+    "id": "eee65a39-4dc7-4676-b4ce-a89956005233",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_goon",
+    "name": "obj_hero1",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "0f795084-894f-4ea6-b323-39055e21f236",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ee2bd565-da6f-4f81-b003-220215fbac6a",
+    "spriteId": "bc61352d-0f2a-4a6c-b828-c7a42035be53",
     "visible": true
 }

@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0f795084-894f-4ea6-b323-39055e21f236",
+            "Value": {
+                "id": "c06baa9b-7544-4cf0-8b4e-2a1d22cbcb33",
+                "resourcePath": "objects\\obj_hero\\obj_hero.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1332ee4c-ab2c-447d-8322-17979346a5b2",
             "Value": {
                 "id": "699802b1-c5a8-4577-9665-503d05972e24",
@@ -60,6 +68,14 @@
                 "id": "ab8a02af-7485-4670-9176-f02b44c4e818",
                 "resourcePath": "views\\1dd7d61b-97b5-4518-a4f1-60213e6febfd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2912d81c-64ad-4d75-aa0c-86a43aeeda44",
+            "Value": {
+                "id": "4c364bd4-78b4-45f8-b823-e03684e4a4e9",
+                "resourcePath": "objects\\obj_goon\\obj_goon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "bc61352d-0f2a-4a6c-b828-c7a42035be53",
+            "Value": {
+                "id": "6620c716-72f0-4a44-a11d-9e6c917be7be",
+                "resourcePath": "sprites\\spr_hero1\\spr_hero1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "6911f7fb-eac9-451d-9848-28dc8e28fc23",
@@ -154,7 +178,7 @@
             "Key": "e46a597e-eebf-4a1d-9086-75d86244b46f",
             "Value": {
                 "id": "11c93342-35a8-44f3-a06b-0b485e988596",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_docks\\rm_docks.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -164,6 +188,14 @@
                 "id": "1e5b9e4a-9baf-4389-9ab7-61904a0f4f12",
                 "resourcePath": "views\\e9f10bd8-a888-44d9-8321-f336343d85ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f405badb-5ed4-4d0c-b323-fa24d113027e",
+            "Value": {
+                "id": "37c089dc-2142-4a06-a29a-67a8c5a31de7",
+                "resourcePath": "rooms\\rm_street\\rm_street.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_docks",
+    "name": "rm_base",
     "id": "e46a597e-eebf-4a1d-9086-75d86244b46f",
     "creationCodeFile": "",
     "inheritCode": false,

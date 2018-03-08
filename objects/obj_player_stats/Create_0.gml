@@ -1,5 +1,5 @@
 //intialize player stats
-level = 1;
+level = 2;
 class = obj_data.classes[? "hero"];
 
 // get stats from class

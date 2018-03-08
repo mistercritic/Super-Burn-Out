@@ -13,7 +13,9 @@ if (room != rm_battle)
 {
 	if (abs(target_white_alpha-white_alpha) <= .2)
 	{
+		room_persistent = true;
 		room_goto(rm_battle);
+		obj_game.last_room = room;
 	}
 }else{
 	//destroy transition

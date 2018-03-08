@@ -1,7 +1,7 @@
 /// @description 
 if (state != hero_wait_state)
 {
-	fade_ready = true;
 	state = hero_wait_state;
-	room_goto_next()
+	var transition = instance_create_layer(0, 0, "Instances", obj_fade_trans);
+	transition.next_room = other.next_room;
 }

@@ -9,5 +9,11 @@ target[? "x"] = x;
 target[? "y"] = y;
 
 //Move the view
-view_xview[0] = x-view_wview[0]/2;
-view_yview[0] = y-view_hview[0]/2;
+//Basic set up
+camera_set_view_pos(view_camera[0], 0, 0);
+camera_set_view_size(view_camera[0], 640, 480);
+
+//Setting up object target information
+camera_set_view_target(view_camera[0], obj_hero);
+camera_set_view_speed(view_camera[0], -1, -1);
+camera_set_view_border(view_camera[0], 32, 32);

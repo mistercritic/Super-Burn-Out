@@ -18,10 +18,7 @@ last_room = room;
 if (state == hero_wait_state)
 {
 	state = hero_move_state;
+	room_persistent = false;
+	persistent = true;
 }
 
-// create the view
-if (!instance_exists(obj_view))
-{
-	instance_create_depth(x+8, y+8, -1, obj_view);
-}

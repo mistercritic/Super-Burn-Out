@@ -1,11 +1,14 @@
-if(fade_ready == true)
-{
-    draw_set_color(c_black);
-    draw_set_alpha(fade_alpha);
-    draw_rectangle(view_xview[0], view_yview[0], view_xview[0]+view_wview[0], view_yview[0]+view_hview[0], false);
-    fade_alpha += fade_amount;
-    if(fade_alpha > 1)
-	{ 
-		room_goto(new_room); 
-	}
-}
+gpu_set_blendmode(bm_add);
+
+draw_set_color(c_blue);
+draw_set_alpha(image_alpha/2);
+draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+
+gpu_set_blendmode(bm_add);
+draw_set_color(c_black);
+draw_set_alpha(image_alpha);
+draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+
+draw_set_color(c_white);
+draw_set_alpha(1);
+gpu_set_blendmode(bm_normal);

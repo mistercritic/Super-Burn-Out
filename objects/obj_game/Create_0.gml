@@ -9,3 +9,6 @@ draw_set_font(fGlobal);
 
 //goto next room
 room_goto_next();
+
+//create last room var
+last_room = rm_base;

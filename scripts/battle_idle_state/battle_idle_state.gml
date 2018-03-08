@@ -1,4 +1,5 @@
 ///battle_idle_state()
+battle_set_sprite(IDLE, 0);
 depth = 0;
 
 // check if battle timeline running

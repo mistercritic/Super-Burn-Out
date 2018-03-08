@@ -1,7 +1,7 @@
 // encounter()
 
 // exit cases
-if (!instance_exists(obj_hero)) || (!instance_exists(obj_random_encounters)) exit;
+if (!instance_exists(obj_hero) || !instance_exists(obj_random_encounters)) exit;
 
 if (obj_random_encounters.on && !instance_exists(obj_battle_trans))
 {
